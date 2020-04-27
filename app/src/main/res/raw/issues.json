@@ -7,7 +7,7 @@
       "authorUrl": "http://mike.pirnat.com/",
       "level": "Intermediate",
       "info": "Even the best programmers make mistakes. In this O’Reilly report, Mike Pirnat dissects some of his most memorable blunders, peeling them back layer-by-layer to reveal just what went wrong.",
-      "url": "http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf",
+      "url": "https://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf",
       "cover": "img/cover_how_to_make_mistakes_in_python.gif"
     },
     {
@@ -16,7 +16,7 @@
       "authorUrl": "http://www.oreilly.com/programming/free/functional-programming-python.csp",
       "level": "Intermediate",
       "info": "In this paper, David Mertz, a director of Python Software Foundation, examines the functional aspects of the language and points out which options work well and which ones you should generally decline.",
-      "url": "http://www.oreilly.com/programming/free/files/functional-programming-python.pdf",
+      "url": "https://www.oreilly.com/programming/free/files/functional-programming-python.pdf",
       "cover": "img/cover_functional_programming_in_python.gif"
     },
     {
@@ -25,7 +25,7 @@
       "authorUrl": "http://www.oreilly.com/programming/free/from-future-import-python.csp",
       "level": "Beginner",
       "info": "This report guides you through the implicit decision tree of choosing what Python version, implementation, and distribution is best suited for you.",
-      "url": "http://www.oreilly.com/programming/free/files/from-future-import-python.pdf",
+      "url": "https://www.oreilly.com/programming/free/files/from-future-import-python.pdf",
       "cover": "img/cover_picking_python_version_manifesto.gif"
     },
     {
@@ -34,7 +34,7 @@
       "authorUrl": "http://ark4n.wordpress.com/python/",
       "level": "Intermediate",
       "info": "[PORTUGUESE] Este livro aborda assuntos que incluem: criação de interfaces com usuário, computação gráfica, aplicações para internet, sistemas distribuídos, entre outros.",
-      "url": "http://ark4n.files.wordpress.com/2010/01/python_para_desenvolvedores_2ed.pdf",
+      "url": "https://ark4n.files.wordpress.com/2010/01/python_para_desenvolvedores_2ed.pdf",
       "cover": "img/cover_pypd_2ed_th.jpg"
     },
     {
@@ -52,7 +52,7 @@
       "authorUrl": "http://reputablejournal.com",
       "level": "Beginner",
       "info": "This interactive book teaches you Python the interactive way, right in the browser.",
-      "url": "http://interactivepython.org/runestone/static/thinkcspy/index.html",
+      "url": "https://interactivepython.org/runestone/static/thinkcspy/index.html",
       "cover": "img/runestone.png"
     },
     {
@@ -61,7 +61,7 @@
       "authorUrl": "http://greenteapress.com/",
       "level": "Beginner",
       "info": "This book teaches you Python right in the browser.",
-      "url": "http://www.openbookproject.net/thinkcs/python/english2e/",
+      "url": "https://www.openbookproject.net/thinkcs/python/english2e/",
       "cover": "img/gasp_lessons.png"
     },
     {
@@ -70,7 +70,7 @@
       "authorUrl": "http://reputablejournal.com/",
       "level": "Intermediate",
       "info": "This book is a CS2 data structures textbook, with a review of Python concepts in chapter 1",
-      "url": "http://interactivepython.org/runestone/static/pythonds/index.html",
+      "url": "https://interactivepython.org/runestone/static/pythonds/index.html",
       "cover": "img/PythonDScover.png"
     },
     {
@@ -79,7 +79,7 @@
       "authorUrl": "http://learnpythonthehardway.org/",
       "level": "Beginner",
       "info": "Have you always wanted to learn how to code but never thought you could? Do you want to challenge your brain in a new way? ",
-      "url": "http://learnpythonthehardway.org/book",
+      "url": "https://learnpythonthehardway.org/book",
       "cover": "img/cover_learnpython.jpg"
     },
     {
@@ -88,7 +88,7 @@
       "authorUrl": "http://getpython3.com/diveintopython3/",
       "level": "Intermediate",
       "info": "Dive Into Python is a free Python book (from 2004) for experienced programmers. It covers many basics of the language",
-      "url": "http://www.diveintopython.net/download/diveintopython-pdf-5.4.zip",
+      "url": "https://www.diveintopython.net/download/diveintopython-pdf-5.4.zip",
       "cover": "img/cover_divepython.jpg"
     },
     {
@@ -106,7 +106,7 @@
       "authorUrl": "http://www.greenteapress.com/",
       "level": "Beginner",
       "info": "A very exhaustive book covering most of the language features, from datatypes to OOP and debugging.",
-      "url": "http://www.greenteapress.com/thinkpython/thinkpython.pdf",
+      "url": "https://www.greenteapress.com/thinkpython/thinkpython.pdf",
       "cover": "img/cover_thinkpython.jpg"
     },
     {
@@ -142,7 +142,7 @@
       "authorUrl": "http://lucumr.pocoo.org/",
       "level": "Intermediate",
       "info": "Learn the Flask web microframework by example. Flask aims to keep the core simple but extensible and gives you freedom to choose the libraries of your choice.",
-      "url": "http://flask.pocoo.org/docs/tutorial/",
+      "url": "https://flask.pocoo.org/docs/tutorial/",
       "cover": "img/cover_flask.png"
     },
     {
@@ -169,7 +169,7 @@
       "authorUrl": "http://www.swaroopch.org/",
       "level": "Beginner",
       "info": "This book aims to help you learn the wonderful Python language and show how to get things done quickly and painlessly - in effect 'The Perfect Anti-venom to your programming problems'.",
-      "url": "http://files.swaroopch.com/python/byte_of_python.pdf",
+      "url": "https://files.swaroopch.com/python/byte_of_python.pdf",
       "cover": "img/cover_swaroop.png"
     },
     {
@@ -187,7 +187,7 @@
       "authorUrl": "http://effbot.org/zone/",
       "level": "Intermediate",
       "info": "This book provides a brief description of each module of the +200 Python standard library and usage examples",
-      "url": "http://effbot.org/zone/librarybook-index.htm",
+      "url": "https://effbot.org/zone/librarybook-index.htm",
       "cover": "img/cover_pythonstandardlibrairy.png"
     },
     {
@@ -205,7 +205,7 @@
       "authorUrl": "http://www.janeriksolem.net/",
       "level": "Advanced",
       "info": "[PDF DRAFT] This book gives an entry point to hands-on computer vision (images, videos...) with enough understanding of the underlying theory and algorithms.",
-      "url": "http://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf",
+      "url": "https://programmingcomputervision.com/downloads/ProgrammingComputerVision_CCdraft.pdf",
       "cover": "img/cover_computervision.jpg"
     },
     {
@@ -223,7 +223,7 @@
       "authorUrl": "http://www.greenteapress.com/",
       "level": "Advanced",
       "info": "This book is about complexity science, data structures and algorithms, intermediate programming in Python, and the philosophy of science.",
-      "url": "http://www.greenteapress.com/complexity/thinkcomplexity.pdf",
+      "url": "https://www.greenteapress.com/complexity/thinkcomplexity.pdf",
       "cover": "img/cover_complexity.jpg"
     },
     {
@@ -232,7 +232,7 @@
       "authorUrl": "http://www.greenteapress.com/",
       "level": "Advanced",
       "info": "Think Stats is an introduction to Probability and Statistics for Python programmers.",
-      "url": "http://greenteapress.com/thinkstats/thinkstats.pdf",
+      "url": "https://greenteapress.com/thinkstats/thinkstats.pdf",
       "cover": "img/cover_stats.jpg"
     },
     {
@@ -241,7 +241,7 @@
       "authorUrl": "http://www.greenteapress.com/",
       "level": "Advanced",
       "info": "Think Stats is an introduction to Probability and Statistics for Python programmers.",
-      "url": "http://greenteapress.com/thinkstats2/thinkstats2.pdf",
+      "url": "https://greenteapress.com/thinkstats2/thinkstats2.pdf",
       "cover": "img/cover_stats.jpg"
     },
     {
@@ -259,7 +259,7 @@
       "authorUrl": "http://lusth.cs.ua.edu/",
       "level": "Beginner",
       "info": "A complete scholar overview of all Python 3 functionnalities from the Alabama University.",
-      "url": "http://beastie.cs.ua.edu/cs150/book/index.html",
+      "url": "https://beastie.cs.ua.edu/cs150/book/index.html",
       "cover": "img/cover_alabamaintro.png"
     },
     {
@@ -286,7 +286,7 @@
       "authorUrl": "http://homepage.mac.com/s_lott/",
       "level": "Intermediate",
       "info": "How do you move from OO programming to OO design? This 301-page book has 49 chapters that will help you build OO design skills through the creation of a moderately complex family of application programs.",
-      "url": "http://buildingskills.itmaybeahack.com/book/oodesign-3.1/html/index.html",
+      "url": "https://buildingskills.itmaybeahack.com/book/oodesign-3.1/html/index.html",
       "cover": "img/cover_buildingskillsoop.jpg"
     },
     {
@@ -304,7 +304,7 @@
       "authorUrl": "http://inforef.be/swi/python.htm",
       "level": "Beginner",
       "info": "[FRENCH] Apprenez à programmer avec Python 2. Découvrez la programmation et le language Python grâce à cet ouvrage de référence.",
-      "url": "http://inforef.be/swi/download/apprendre_python.pdf",
+      "url": "https://inforef.be/swi/download/apprendre_python.pdf",
       "cover": "img/cover_apprendrepython2.jpg"
     },
     {
@@ -331,7 +331,7 @@
       "authorUrl": "http://www.dsimb.inserm.fr/~fuchs/",
       "level": "Beginner",
       "info": "[FRENCH] Beginner and progressive course about Python theory and concepts",
-      "url": "http://www.dsimb.inserm.fr/~fuchs/python/cours_python.pdf",
+      "url": "https://www.dsimb.inserm.fr/~fuchs/python/cours_python.pdf",
       "cover": "img/cover_python101.png"
     },
     {
@@ -367,7 +367,7 @@
       "authorUrl": "http://regebro.wordpress.com/",
       "level": "Intermediate",
       "info": "This book guides you through the process of porting your Python 2 code to Python 3, from choosing a porting strategy to solving your distribution issues. Using plenty of code examples is takes you cross the hurdles and shows you the new Python features.",
-      "url": "http://python3porting.com/pdfs/SupportingPython3-screen-1.0-latest.pdf",
+      "url": "https://python3porting.com/pdfs/SupportingPython3-screen-1.0-latest.pdf",
       "cover": "img/cover_porting_python3.png"
     },
     {
@@ -421,7 +421,7 @@
       "authorUrl": "http://www.organisms.be/",
       "level": "Intermediate",
       "info": "Case studies in Python - using the libraries nodebox and pattern the author creates wonderful fractals and infographics; python code snippets included",
-      "url": "http://www.clips.ua.ac.be/sites/default/files/modeling-creativity.pdf",
+      "url": "https://www.clips.ua.ac.be/sites/default/files/modeling-creativity.pdf",
       "cover": "img/modelingcreativity.png"
     },
     {
@@ -448,7 +448,7 @@
       "authorUrl": "http://www.toonzcat.com/book.html",
       "level": "Beginner",
       "info": "(4 free chapters) Python 3x Programming, Made Fun and Easier by Jody S. Ginther is for the beginning programmer who wants to learn visually and have some fun while learning programming. The full course will take the beginner from ground zero to making their own arcade style game complete with; music, sound, graphics, and how to make a distribution package to share it with your friends in 21 lessons.",
-      "url": " http://www.toonzcat.com/media/pythonfree.pdf",
+      "url": " https://www.toonzcat.com/media/pythonfree.pdf",
       "cover": "img/py3programming.png"
     },
     {
@@ -466,7 +466,7 @@
       "authorUrl": "http://mundogeek.net/",
       "level": "Beginner",
       "info": "[SPANISH] Libro sobre programación en Python a modo de tutorial, adecuado para todos los niveles de aprendizaje, desde novatos hasta expertos que quieren conocer más sobre Python.",
-      "url": "http://edge.launchpad.net/improve-python-spanish-doc/0.4/0.4.0/+download/Python%20para%20todos.pdf",
+      "url": "https://edge.launchpad.net/improve-python-spanish-doc/0.4/0.4.0/+download/Python%20para%20todos.pdf",
       "cover": "img/tutorial-python.jpg"
     },
     {
@@ -475,7 +475,7 @@
       "authorUrl": "http://civil.iisc.ernet.in/~satkumar/",
       "level": "Beginner",
       "info": "Python in Hydrology is written for learning Python using its applications in hydrology. The book covers the basic applications of hydrology, and also the advanced topic like use of copula.",
-      "url": "http://www.greenteapress.com/pythonhydro/pythonhydro.pdf",
+      "url": "https://www.greenteapress.com/pythonhydro/pythonhydro.pdf",
       "cover": "img/cover_python_in_hydrology.png"
     },
     {
@@ -484,7 +484,7 @@
       "authorUrl": "http://zacharski.org/",
       "level": "Intermediate",
       "info": "A guide to practical data mining, collective intelligence, and building recommendation systems.",
-      "url": "http://guidetodatamining.com/assets/guideChapters/Guide2DataMining.pdf",
+      "url": "https://guidetodatamining.com/assets/guideChapters/Guide2DataMining.pdf",
       "cover": "img/cover_guidetodatamining.png"
     },
     {
@@ -502,7 +502,7 @@
       "authorUrl": "http://biopython.org/wiki/Main_Page",
       "level": "Intermediate",
       "info": "This is a tutorial and cookbook for Biopython (Biopython is a set of freely available toos for biological computations.",
-      "url": "http://biopython.org/DIST/docs/tutorial/Tutorial.pdf",
+      "url": "https://biopython.org/DIST/docs/tutorial/Tutorial.pdf",
       "cover": "img/cover_biopython.jpg"
     },
     {
@@ -565,7 +565,7 @@
       "authorUrl": "http://www.eecs.wsu.edu/~schneidj/",
       "level": "Beginner",
       "info": "Python's syntax and idioms are much easier to learn than those of most other full-featured languages. This book uses programming language Python to introduce folks to programming and algorithmic thinking.",
-      "url": "http://www.eecs.wsu.edu/~schneidj/PyBook/swan.pdf",
+      "url": "https://www.eecs.wsu.edu/~schneidj/PyBook/swan.pdf",
       "cover": "img/algo_ps_python.png"
     },
     {
@@ -592,7 +592,7 @@
       "authorUrl": "http://ianozsvald.com/",
       "level": "Intermediate",
       "info": "By exploring the fundamental theory behind design choices, this practical guide helps you gain a deeper understanding of Python's implementation. You'll learn how to locate performance bottlenecks and significantly speed up your code in high-data-volume programs.",
-      "url": "http://ianozsvald.com/HighPerformancePythonfromTrainingatEuroPython2011_v0.2.pdf",
+      "url": "https://ianozsvald.com/HighPerformancePythonfromTrainingatEuroPython2011_v0.2.pdf",
       "cover": "img/cover_highperf.png"
     },
     {

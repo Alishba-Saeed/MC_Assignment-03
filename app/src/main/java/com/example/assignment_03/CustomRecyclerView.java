@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,7 @@ public class CustomRecyclerView extends RecyclerView.Adapter<CustomRecyclerView.
     private ArrayList<String> imgid;
     private ArrayList<String> url;
     ProgressDialog progressDialog;
+    private  String bookUrl="";
     public CustomRecyclerView(Context context, ArrayList<String> title, ArrayList<String> level,ArrayList<String> info, ArrayList<String> imgid, ArrayList<String> url) {
 
         this.context = context;
@@ -52,7 +54,6 @@ public class CustomRecyclerView extends RecyclerView.Adapter<CustomRecyclerView.
         progressDialog.setIndeterminate(true);
         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         progressDialog.setCancelable(true);
-
     }
 
 
@@ -85,6 +86,7 @@ public class CustomRecyclerView extends RecyclerView.Adapter<CustomRecyclerView.
             public void onClick(View view) {
 
                 if(subs.contains("pdf")|| subs.contains("zip")) {
+                    bookUrl=title.get(position);
                     new CustomDownload().execute(subs);
                 }
                 else
@@ -118,8 +120,6 @@ public class CustomRecyclerView extends RecyclerView.Adapter<CustomRecyclerView.
             tv_info=itemView.findViewById(R.id.tv_info);
             iv_icon = itemView.findViewById(R.id.iv_img);
             btn=itemView.findViewById(R.id.btn);
-
-
         }
     }
 class CustomDownload extends AsyncTask<String,Integer,String>
@@ -135,6 +135,8 @@ class CustomDownload extends AsyncTask<String,Integer,String>
     {
         int count;
         try {
+           // Log.e("url-",f_url[0]);
+
             URL url=new URL(f_url[0]);
             URLConnection conn=url.openConnection() ;
             conn.connect();
@@ -142,9 +144,7 @@ class CustomDownload extends AsyncTask<String,Integer,String>
             InputStream is= new BufferedInputStream(url.openStream());
             final  int PERMISSION_REQUEST_CODE=12345;
             ActivityCompat.requestPermissions((Activity)context,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE},PERMISSION_REQUEST_CODE);
-            OutputStream outputStream=new FileOutputStream(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)+"/"+title+".pdf");
-
-
+            OutputStream outputStream=new FileOutputStream(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)+"/"+bookUrl+".pdf");
             byte[]buffer=new byte[1024];
             long total=0;
             while ((count=is.read(buffer))!=-1)
@@ -152,8 +152,6 @@ class CustomDownload extends AsyncTask<String,Integer,String>
                 total+=count;
                 publishProgress((int)((total*100)/length));
                 outputStream.write(buffer,0,count);
-
-
             }
             outputStream.flush();;
             outputStream.close();;
@@ -177,7 +175,6 @@ class CustomDownload extends AsyncTask<String,Integer,String>
     @Override
     protected void onProgressUpdate(Integer... values) {
         super.onProgressUpdate(values);
-
         progressDialog.setIndeterminate(false);
         progressDialog.setMax(100);
         progressDialog.setProgress(values[0]);
@@ -189,11 +186,11 @@ class CustomDownload extends AsyncTask<String,Integer,String>
         progressDialog.dismiss();
             if(o!=null)
             {
-                Toast.makeText(context,"Download Error",Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,"Download Error"+o,Toast.LENGTH_SHORT).show();
             }
             else
             {
-                Toast.makeText(context,"Download Error",Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,"File downloaded", Toast.LENGTH_SHORT).show();
 
             }
     }
